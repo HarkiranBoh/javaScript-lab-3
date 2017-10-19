@@ -24,6 +24,7 @@
   function PerformGreeting() {
     myName.innerHTML = userName.value;
 	myHeader.innerHTML = userName.value;
+	myHeader.classList.add("change-me");
      /*
     Without setting the variables first, the above line would be really long:
       document.getElementById("my-name").innerHTML = document.getElementById("user-name").value;
